@@ -1,0 +1,151 @@
+body{
+    background-color: #262626;
+    font-family: sans-serif;
+}
+div.header-img{
+    width:100%;
+    background-color: #1a1a1a;
+    overflow: hidden;
+    position: fixed;
+}
+#header-img{
+    width: 350px;
+    filter: invert(100%);
+    margin: auto;
+    display: block;
+}
+div.nav-bar{
+    overflow: hidden;
+    position: relative;
+    background-color: #1a1a1a;
+    width; 100%;
+    top: 47px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px 50px;
+    float: right;
+    transition: background .5s ease;
+    
+}
+.nav-link:hover{
+    background-color:#ad9403;
+    
+}
+.title{
+    margin-top: 150px;
+    color: #ad9403;
+    text-align: center;
+}
+#email{
+    display: block;
+    margin: auto;
+    width: 180px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ad9403;
+    font-size: 15px;
+   
+}
+
+#email::placeholder{
+    color: white;
+    opacity: 80%;
+}
+
+
+#Submit{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    background-color: #ad9403;
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    transition: background .5s ease;
+    
+}
+
+#Submit:hover{
+    background-color: brown;
+}
+
+.text{
+    width:700px;
+    margin:auto;
+    color: #ad9403;
+    margin-top: 100px;
+}
+
+#video{
+    margin: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #ad9403;
+    padding: 5px;
+}
+div.flex-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+div.products{
+    background-color:white;
+    margin: 20px;
+    transition: box-shadow .5s ease;
+}
+
+div.product-title{
+    padding:10px;
+    background-color:#ad9403;
+    color: white;
+    text-align: center;
+}
+
+div.product-description{
+    color: #ad9403;
+}
+#product-submit{
+    background-color: brown;
+    border:none;
+    width:100%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    transition: background .5s ease;
+}
+#product-submit:hover{
+    background-color: #ad9403;
+}
+
+@media screen and(max-width:600px){
+    .flex-container{
+        flex-direction: column;
+    }
+    .nav-link{
+        width:100%;
+        margin: auto;
+    }
+    .text{
+        width:400px;
+    }
+}
+
+footer{
+    font-family: sans-serif;
+    color: #ad9403;
+    margin-left: 900px;
+    word-spacing: 80px;
+    margin-top: 30px;
+}
+
